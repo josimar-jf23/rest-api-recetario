@@ -3,7 +3,7 @@ import { body } from "express-validator";
 
 import { 
     getUsers 
-} from "../controllers/user.controllers.js";
+} from "../controllers/users.controllers.js";
 
 const router = Router();
 
