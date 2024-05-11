@@ -7,6 +7,9 @@ import {
 
 const router = Router();
 
+router.get("/", (req, res) => {
+    print("hola");
+});
 router.get("/users", getUsers);
 
 export default router;
